@@ -1,34 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wordscape Answers - Project Neo - Developer833
 
-## Getting Started
+This is a continuation of the project I did last month that exposed how little I knew about arrays and objects. I was given a csv file with 6001 entries. All I needed to do was create a list that would link to an answer page. Each answer page would link to the next answer and/or previous one.
 
-First, run the development server:
+Simple enough, I thought I could do it in a day. One month later I'm still here learning.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+I've learned alot about array's and objects by struggling to parse the csv into a data structure that I could use. I found packages like papaparse that I used to convert the csv into json, but I still needed to parse that into a structure I could use.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After completing the project the first time, it was reviewed by my mentor. This is my attempt to do it better with what I know now:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- pull data from static files, don't parse it at build time...
+- don't settle for data that isn't useable, work it until you can write readable code
+- take necessary time to visualize and mockout your data sample, make a smaller array or object for testing...THEN figure out how to parse the data to create that structure
