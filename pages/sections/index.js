@@ -15,7 +15,7 @@ const TierPage = () => {
     .filter((t) => t.section == section)
     .map((tier) => (
       <TierCard
-        key={tier.section}
+        key={tier}
         section={tier.section}
         sectiontier={tier.sectiontier}
         id={tier.id}

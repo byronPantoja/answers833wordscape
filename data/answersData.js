@@ -113983,10 +113983,13 @@ answersData.map((item, index) => {
   // changes url to  '/section/tier/tierLevel'
   item.url = LevelTitles[index]
     ? '/' +
+      //section
       LevelTitles[index][0] +
       '/' +
+      //tier
       LevelTitles[index][1] +
       '/' +
+      //tierlevel
       LevelTitles[index][2]
     : '';
   // adds 'section' to object
@@ -114065,19 +114068,18 @@ const sectionTierData =
 // adds id to section tier titles
 sectionTierData.map((item, index) => {
   item.id = index + 1;
+  // adds section
+  item.section = sectionTierData[
+    index
+  ].sectiontier
+    .split(' ')
+    .shift();
 });
+console.log('section', sectionTierData);
 
-// adding sections
-sectionTierData.map((item, index) => {
-  item.section = LevelTitles[index]
-    ? LevelTitles[
-        index
-      ][0].toUpperCase()
-    : '';
-})
 
 module.exports = {
   answersData,
   sectionsData,
   sectionTierData,
-}
+};

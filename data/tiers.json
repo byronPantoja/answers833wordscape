@@ -17,1836 +17,1836 @@
   {
     "sectiontier": "FOREST PINE",
     "id": 4,
-    "section": "SUNRISE"
+    "section": "FOREST"
   },
   {
     "sectiontier": "FOREST DEW",
     "id": 5,
-    "section": "SUNRISE"
+    "section": "FOREST"
   },
   {
     "sectiontier": "FOREST FLOW",
     "id": 6,
-    "section": "SUNRISE"
+    "section": "FOREST"
   },
   {
     "sectiontier": "FOREST FOG",
     "id": 7,
-    "section": "SUNRISE"
+    "section": "FOREST"
   },
   {
     "sectiontier": "FOREST LIFE",
     "id": 8,
-    "section": "SUNRISE"
+    "section": "FOREST"
   },
   {
     "sectiontier": "CANYON RAVINE",
     "id": 9,
-    "section": "SUNRISE"
+    "section": "CANYON"
   },
   {
     "sectiontier": "CANYON PASS",
     "id": 10,
-    "section": "SUNRISE"
+    "section": "CANYON"
   },
   {
     "sectiontier": "CANYON ARCH",
     "id": 11,
-    "section": "SUNRISE"
+    "section": "CANYON"
   },
   {
     "sectiontier": "CANYON CLIFF",
     "id": 12,
-    "section": "SUNRISE"
+    "section": "CANYON"
   },
   {
     "sectiontier": "CANYON PILLAR",
     "id": 13,
-    "section": "FOREST"
+    "section": "CANYON"
   },
   {
     "sectiontier": "SKY WIND",
     "id": 14,
-    "section": "FOREST"
+    "section": "SKY"
   },
   {
     "sectiontier": "SKY RAYS",
     "id": 15,
-    "section": "FOREST"
+    "section": "SKY"
   },
   {
     "sectiontier": "SKY DUSK",
     "id": 16,
-    "section": "FOREST"
+    "section": "SKY"
   },
   {
     "sectiontier": "SKY CLOUD",
     "id": 17,
-    "section": "FOREST"
+    "section": "SKY"
   },
   {
     "sectiontier": "SKY SUN",
     "id": 18,
-    "section": "FOREST"
+    "section": "SKY"
   },
   {
     "sectiontier": "TROPIC SHORE",
     "id": 19,
-    "section": "FOREST"
+    "section": "TROPIC"
   },
   {
     "sectiontier": "TROPIC FROND",
     "id": 20,
-    "section": "FOREST"
+    "section": "TROPIC"
   },
   {
     "sectiontier": "TROPIC PALM",
     "id": 21,
-    "section": "FOREST"
+    "section": "TROPIC"
   },
   {
     "sectiontier": "TROPIC BEACH",
     "id": 22,
-    "section": "FOREST"
+    "section": "TROPIC"
   },
   {
     "sectiontier": "TROPIC COAST",
     "id": 23,
-    "section": "FOREST"
+    "section": "TROPIC"
   },
   {
     "sectiontier": "MOUNTAIN CREST",
     "id": 24,
-    "section": "FOREST"
+    "section": "MOUNTAIN"
   },
   {
     "sectiontier": "MOUNTAIN FJORD",
     "id": 25,
-    "section": "FOREST"
+    "section": "MOUNTAIN"
   },
   {
     "sectiontier": "MOUNTAIN CLIMB",
     "id": 26,
-    "section": "FOREST"
+    "section": "MOUNTAIN"
   },
   {
     "sectiontier": "MOUNTAIN SCALE",
     "id": 27,
-    "section": "FOREST"
+    "section": "MOUNTAIN"
   },
   {
     "sectiontier": "MOUNTAIN PEAK",
     "id": 28,
-    "section": "FOREST"
+    "section": "MOUNTAIN"
   },
   {
     "sectiontier": "WINTER CHILL",
     "id": 29,
-    "section": "FOREST"
+    "section": "WINTER"
   },
   {
     "sectiontier": "WINTER BITE",
     "id": 30,
-    "section": "FOREST"
+    "section": "WINTER"
   },
   {
     "sectiontier": "WINTER FLAKE",
     "id": 31,
-    "section": "FOREST"
+    "section": "WINTER"
   },
   {
     "sectiontier": "WINTER WHITE",
     "id": 32,
-    "section": "FOREST"
+    "section": "WINTER"
   },
   {
     "sectiontier": "WINTER FROST",
     "id": 33,
-    "section": "FOREST"
+    "section": "WINTER"
   },
   {
     "sectiontier": "FLORA PETAL",
     "id": 34,
-    "section": "FOREST"
+    "section": "FLORA"
   },
   {
     "sectiontier": "FLORA LILY",
     "id": 35,
-    "section": "FOREST"
+    "section": "FLORA"
   },
   {
     "sectiontier": "FLORA BLOOM",
     "id": 36,
-    "section": "FOREST"
+    "section": "FLORA"
   },
   {
     "sectiontier": "FLORA FIELD",
     "id": 37,
-    "section": "FOREST"
+    "section": "FLORA"
   },
   {
     "sectiontier": "FLORA SEED",
     "id": 38,
-    "section": "FOREST"
+    "section": "FLORA"
   },
   {
     "sectiontier": "AUTUMN FALL",
     "id": 39,
-    "section": "FOREST"
+    "section": "AUTUMN"
   },
   {
     "sectiontier": "AUTUMN BARK",
     "id": 40,
-    "section": "FOREST"
+    "section": "AUTUMN"
   },
   {
     "sectiontier": "AUTUMN RED",
     "id": 41,
-    "section": "FOREST"
+    "section": "AUTUMN"
   },
   {
     "sectiontier": "AUTUMN VIVID",
     "id": 42,
-    "section": "FOREST"
+    "section": "AUTUMN"
   },
   {
     "sectiontier": "AUTUMN COVER",
     "id": 43,
-    "section": "FOREST"
+    "section": "AUTUMN"
   },
   {
     "sectiontier": "JUNGLE VINE",
     "id": 44,
-    "section": "FOREST"
+    "section": "JUNGLE"
   },
   {
     "sectiontier": "JUNGLE THICK",
     "id": 45,
-    "section": "FOREST"
+    "section": "JUNGLE"
   },
   {
     "sectiontier": "JUNGLE WILD",
     "id": 46,
-    "section": "FOREST"
+    "section": "JUNGLE"
   },
   {
     "sectiontier": "JUNGLE LUSH",
     "id": 47,
-    "section": "FOREST"
+    "section": "JUNGLE"
   },
   {
     "sectiontier": "JUNGLE GREEN",
     "id": 48,
-    "section": "FOREST"
+    "section": "JUNGLE"
   },
   {
     "sectiontier": "DESERT SPIRE",
     "id": 49,
-    "section": "FOREST"
+    "section": "DESERT"
   },
   {
     "sectiontier": "DESERT ROCK",
     "id": 50,
-    "section": "FOREST"
+    "section": "DESERT"
   },
   {
     "sectiontier": "DESERT SIERRA",
     "id": 51,
-    "section": "FOREST"
+    "section": "DESERT"
   },
   {
     "sectiontier": "DESERT DUNE",
     "id": 52,
-    "section": "FOREST"
+    "section": "DESERT"
   },
   {
     "sectiontier": "DESERT SAND",
     "id": 53,
-    "section": "FOREST"
+    "section": "DESERT"
   },
   {
     "sectiontier": "OCEAN VAST",
     "id": 54,
-    "section": "FOREST"
+    "section": "OCEAN"
   },
   {
     "sectiontier": "OCEAN WAVE",
     "id": 55,
-    "section": "FOREST"
+    "section": "OCEAN"
   },
   {
     "sectiontier": "OCEAN STORM",
     "id": 56,
-    "section": "FOREST"
+    "section": "OCEAN"
   },
   {
     "sectiontier": "OCEAN BLUE",
     "id": 57,
-    "section": "FOREST"
+    "section": "OCEAN"
   },
   {
     "sectiontier": "OCEAN DEPTH",
     "id": 58,
-    "section": "FOREST"
+    "section": "OCEAN"
   },
   {
     "sectiontier": "FIELD SAIL",
     "id": 59,
-    "section": "FOREST"
+    "section": "FIELD"
   },
   {
     "sectiontier": "FIELD HAZE",
     "id": 60,
-    "section": "FOREST"
+    "section": "FIELD"
   },
   {
     "sectiontier": "FIELD SOAR",
     "id": 61,
-    "section": "FOREST"
+    "section": "FIELD"
   },
   {
     "sectiontier": "FIELD WIND",
     "id": 62,
-    "section": "FOREST"
+    "section": "FIELD"
   },
   {
     "sectiontier": "FIELD AMBER",
     "id": 63,
-    "section": "FOREST"
+    "section": "FIELD"
   },
   {
     "sectiontier": "LAKE CALM",
     "id": 64,
-    "section": "FOREST"
+    "section": "LAKE"
   },
   {
     "sectiontier": "LAKE SET",
     "id": 65,
-    "section": "FOREST"
+    "section": "LAKE"
   },
   {
     "sectiontier": "LAKE SERENE",
     "id": 66,
-    "section": "FOREST"
+    "section": "LAKE"
   },
   {
     "sectiontier": "LAKE AIR",
     "id": 67,
-    "section": "FOREST"
+    "section": "LAKE"
   },
   {
     "sectiontier": "LAKE GRACE",
     "id": 68,
-    "section": "FOREST"
+    "section": "LAKE"
   },
   {
     "sectiontier": "VISTA CLIMB",
     "id": 69,
-    "section": "FOREST"
+    "section": "VISTA"
   },
   {
     "sectiontier": "VISTA ABOVE",
     "id": 70,
-    "section": "FOREST"
+    "section": "VISTA"
   },
   {
     "sectiontier": "VISTA FALL",
     "id": 71,
-    "section": "FOREST"
+    "section": "VISTA"
   },
   {
     "sectiontier": "VISTA BELOW",
     "id": 72,
-    "section": "FOREST"
+    "section": "VISTA"
   },
   {
     "sectiontier": "VISTA ARRIVE",
     "id": 73,
-    "section": "FOREST"
+    "section": "VISTA"
   },
   {
     "sectiontier": "CLIFF MIST",
     "id": 74,
-    "section": "FOREST"
+    "section": "CLIFF"
   },
   {
     "sectiontier": "CLIFF BRIGHT",
     "id": 75,
-    "section": "FOREST"
+    "section": "CLIFF"
   },
   {
     "sectiontier": "CLIFF DAWN",
     "id": 76,
-    "section": "FOREST"
+    "section": "CLIFF"
   },
   {
     "sectiontier": "CLIFF BROOD",
     "id": 77,
-    "section": "FOREST"
+    "section": "CLIFF"
   },
   {
     "sectiontier": "CLIFF VIEW",
     "id": 78,
-    "section": "FOREST"
+    "section": "CLIFF"
   },
   {
     "sectiontier": "BEACH FRESH",
     "id": 79,
-    "section": "FOREST"
+    "section": "BEACH"
   },
   {
     "sectiontier": "BEACH SHELL",
     "id": 80,
-    "section": "FOREST"
+    "section": "BEACH"
   },
   {
     "sectiontier": "BEACH WASH",
     "id": 81,
-    "section": "CANYON"
+    "section": "BEACH"
   },
   {
     "sectiontier": "BEACH AQUA",
     "id": 82,
-    "section": "CANYON"
+    "section": "BEACH"
   },
   {
     "sectiontier": "BEACH PEBBLE",
     "id": 83,
-    "section": "CANYON"
+    "section": "BEACH"
   },
   {
     "sectiontier": "FOG WOOD",
     "id": 84,
-    "section": "CANYON"
+    "section": "FOG"
   },
   {
     "sectiontier": "FOG VALLEY",
     "id": 85,
-    "section": "CANYON"
+    "section": "FOG"
   },
   {
     "sectiontier": "FOG LAKE",
     "id": 86,
-    "section": "CANYON"
+    "section": "FOG"
   },
   {
     "sectiontier": "FOG RANGE",
     "id": 87,
-    "section": "CANYON"
+    "section": "FOG"
   },
   {
     "sectiontier": "FOG RIVER",
     "id": 88,
-    "section": "CANYON"
+    "section": "FOG"
   },
   {
     "sectiontier": "CELESTIAL COSMO",
     "id": 89,
-    "section": "CANYON"
+    "section": "CELESTIAL"
   },
   {
     "sectiontier": "CELESTIAL LUNA",
     "id": 90,
-    "section": "CANYON"
+    "section": "CELESTIAL"
   },
   {
     "sectiontier": "CELESTIAL STRATO",
     "id": 91,
-    "section": "CANYON"
+    "section": "CELESTIAL"
   },
   {
     "sectiontier": "CELESTIAL POLAR",
     "id": 92,
-    "section": "CANYON"
+    "section": "CELESTIAL"
   },
   {
     "sectiontier": "CELESTIAL SOLIS",
     "id": 93,
-    "section": "CANYON"
+    "section": "CELESTIAL"
   },
   {
     "sectiontier": "WOODLAND RAY",
     "id": 94,
-    "section": "CANYON"
+    "section": "WOODLAND"
   },
   {
     "sectiontier": "WOODLAND AZURE",
     "id": 95,
-    "section": "CANYON"
+    "section": "WOODLAND"
   },
   {
     "sectiontier": "WOODLAND TOAD",
     "id": 96,
-    "section": "CANYON"
+    "section": "WOODLAND"
   },
   {
     "sectiontier": "WOODLAND BROOK",
     "id": 97,
-    "section": "CANYON"
+    "section": "WOODLAND"
   },
   {
     "sectiontier": "WOODLAND LEAF",
     "id": 98,
-    "section": "CANYON"
+    "section": "WOODLAND"
   },
   {
     "sectiontier": "OUTBACK FLAT",
     "id": 99,
-    "section": "CANYON"
+    "section": "OUTBACK"
   },
   {
     "sectiontier": "OUTBACK ERODE",
     "id": 100,
-    "section": "CANYON"
+    "section": "OUTBACK"
   },
   {
     "sectiontier": "OUTBACK ARID",
     "id": 101,
-    "section": "CANYON"
+    "section": "OUTBACK"
   },
   {
     "sectiontier": "OUTBACK LIME",
     "id": 102,
-    "section": "CANYON"
+    "section": "OUTBACK"
   },
   {
     "sectiontier": "OUTBACK ARCH",
     "id": 103,
-    "section": "CANYON"
+    "section": "OUTBACK"
   },
   {
     "sectiontier": "FROST WHITE",
     "id": 104,
-    "section": "CANYON"
+    "section": "FROST"
   },
   {
     "sectiontier": "FROST VALLEY",
     "id": 105,
-    "section": "CANYON"
+    "section": "FROST"
   },
   {
     "sectiontier": "FROST LAKE",
     "id": 106,
-    "section": "CANYON"
+    "section": "FROST"
   },
   {
     "sectiontier": "FROST ICEY",
     "id": 107,
-    "section": "CANYON"
+    "section": "FROST"
   },
   {
     "sectiontier": "FROST SHINE",
     "id": 108,
-    "section": "CANYON"
+    "section": "FROST"
   },
   {
     "sectiontier": "TIMBERLAND MIST",
     "id": 109,
-    "section": "CANYON"
+    "section": "TIMBERLAND"
   },
   {
     "sectiontier": "TIMBERLAND BRIGHT",
     "id": 110,
-    "section": "CANYON"
+    "section": "TIMBERLAND"
   },
   {
     "sectiontier": "TIMBERLAND DAWN",
     "id": 111,
-    "section": "CANYON"
+    "section": "TIMBERLAND"
   },
   {
     "sectiontier": "TIMBERLAND BROOD",
     "id": 112,
-    "section": "CANYON"
+    "section": "TIMBERLAND"
   },
   {
     "sectiontier": "TIMBERLAND VIEW",
     "id": 113,
-    "section": "CANYON"
+    "section": "TIMBERLAND"
   },
   {
     "sectiontier": "HILLS CLIMB",
     "id": 114,
-    "section": "CANYON"
+    "section": "HILLS"
   },
   {
     "sectiontier": "HILLS ABOVE",
     "id": 115,
-    "section": "CANYON"
+    "section": "HILLS"
   },
   {
     "sectiontier": "HILLS FALL",
     "id": 116,
-    "section": "CANYON"
+    "section": "HILLS"
   },
   {
     "sectiontier": "HILLS BELOW",
     "id": 117,
-    "section": "CANYON"
+    "section": "HILLS"
   },
   {
     "sectiontier": "HILLS ARRIVE",
     "id": 118,
-    "section": "CANYON"
+    "section": "HILLS"
   },
   {
     "sectiontier": "MIST RAY",
     "id": 119,
-    "section": "CANYON"
+    "section": "MIST"
   },
   {
     "sectiontier": "MIST AZURE",
     "id": 120,
-    "section": "CANYON"
+    "section": "MIST"
   },
   {
     "sectiontier": "MIST TOAD",
     "id": 121,
-    "section": "CANYON"
+    "section": "MIST"
   },
   {
     "sectiontier": "MIST BROOK",
     "id": 122,
-    "section": "CANYON"
+    "section": "MIST"
   },
   {
     "sectiontier": "MIST LEAF",
     "id": 123,
-    "section": "CANYON"
+    "section": "MIST"
   },
   {
     "sectiontier": "FORMATION CALM",
     "id": 124,
-    "section": "CANYON"
+    "section": "FORMATION"
   },
   {
     "sectiontier": "FORMATION SET",
     "id": 125,
-    "section": "CANYON"
+    "section": "FORMATION"
   },
   {
     "sectiontier": "FORMATION SERENE",
     "id": 126,
-    "section": "CANYON"
+    "section": "FORMATION"
   },
   {
     "sectiontier": "FORMATION AIR",
     "id": 127,
-    "section": "CANYON"
+    "section": "FORMATION"
   },
   {
     "sectiontier": "FORMATION GRACE",
     "id": 128,
-    "section": "CANYON"
+    "section": "FORMATION"
   },
   {
     "sectiontier": "COAST FRESH",
     "id": 129,
-    "section": "CANYON"
+    "section": "COAST"
   },
   {
     "sectiontier": "COAST SHELL",
     "id": 130,
-    "section": "CANYON"
+    "section": "COAST"
   },
   {
     "sectiontier": "COAST WASH",
     "id": 131,
-    "section": "CANYON"
+    "section": "COAST"
   },
   {
     "sectiontier": "COAST AQUA",
     "id": 132,
-    "section": "CANYON"
+    "section": "COAST"
   },
   {
     "sectiontier": "COAST PEBBLE",
     "id": 133,
-    "section": "CANYON"
+    "section": "COAST"
   },
   {
     "sectiontier": "TWILIGHT MIST",
     "id": 134,
-    "section": "CANYON"
+    "section": "TWILIGHT"
   },
   {
     "sectiontier": "TWILIGHT BRIGHT",
     "id": 135,
-    "section": "CANYON"
+    "section": "TWILIGHT"
   },
   {
     "sectiontier": "TWILIGHT DAWN",
     "id": 136,
-    "section": "CANYON"
+    "section": "TWILIGHT"
   },
   {
     "sectiontier": "TWILIGHT BROOD",
     "id": 137,
-    "section": "CANYON"
+    "section": "TWILIGHT"
   },
   {
     "sectiontier": "TWILIGHT VIEW",
     "id": 138,
-    "section": "CANYON"
+    "section": "TWILIGHT"
   },
   {
     "sectiontier": "MARSH FALL",
     "id": 139,
-    "section": "CANYON"
+    "section": "MARSH"
   },
   {
     "sectiontier": "MARSH BARK",
     "id": 140,
-    "section": "CANYON"
+    "section": "MARSH"
   },
   {
     "sectiontier": "MARSH RED",
     "id": 141,
-    "section": "CANYON"
+    "section": "MARSH"
   },
   {
     "sectiontier": "MARSH VIVID",
     "id": 142,
-    "section": "CANYON"
+    "section": "MARSH"
   },
   {
     "sectiontier": "MARSH COVER",
     "id": 143,
-    "section": "CANYON"
+    "section": "MARSH"
   },
   {
     "sectiontier": "WOODS FIR",
     "id": 144,
-    "section": "CANYON"
+    "section": "WOODS"
   },
   {
     "sectiontier": "WOODS LEAF",
     "id": 145,
-    "section": "CANYON"
+    "section": "WOODS"
   },
   {
     "sectiontier": "WOODS FALL",
     "id": 146,
-    "section": "CANYON"
+    "section": "WOODS"
   },
   {
     "sectiontier": "WOODS MOSSY",
     "id": 147,
-    "section": "CANYON"
+    "section": "WOODS"
   },
   {
     "sectiontier": "WOODS BRIGHT",
     "id": 148,
-    "section": "CANYON"
+    "section": "WOODS"
   },
   {
     "sectiontier": "ARID RISE",
     "id": 149,
-    "section": "CANYON"
+    "section": "ARID"
   },
   {
     "sectiontier": "ARID SAND",
     "id": 150,
-    "section": "CANYON"
+    "section": "ARID"
   },
   {
     "sectiontier": "ARID DAWN",
     "id": 151,
-    "section": "CANYON"
+    "section": "ARID"
   },
   {
     "sectiontier": "ARID DRIFT",
     "id": 152,
-    "section": "CANYON"
+    "section": "ARID"
   },
   {
     "sectiontier": "ARID DRY",
     "id": 153,
-    "section": "CANYON"
+    "section": "ARID"
   },
   {
     "sectiontier": "TIDE RIPPLE",
     "id": 154,
-    "section": "CANYON"
+    "section": "TIDE"
   },
   {
     "sectiontier": "TIDE WAVE",
     "id": 155,
-    "section": "CANYON"
+    "section": "TIDE"
   },
   {
     "sectiontier": "TIDE CALM",
     "id": 156,
-    "section": "CANYON"
+    "section": "TIDE"
   },
   {
     "sectiontier": "TIDE BREEZE",
     "id": 157,
-    "section": "CANYON"
+    "section": "TIDE"
   },
   {
     "sectiontier": "TIDE FLOAT",
     "id": 158,
-    "section": "CANYON"
+    "section": "TIDE"
   },
   {
     "sectiontier": "PASSAGE RIVER",
     "id": 159,
-    "section": "CANYON"
+    "section": "PASSAGE"
   },
   {
     "sectiontier": "PASSAGE CURVE",
     "id": 160,
-    "section": "CANYON"
+    "section": "PASSAGE"
   },
   {
     "sectiontier": "PASSAGE HOLE",
     "id": 161,
-    "section": "SKY"
+    "section": "PASSAGE"
   },
   {
     "sectiontier": "PASSAGE MIST",
     "id": 162,
-    "section": "SKY"
+    "section": "PASSAGE"
   },
   {
     "sectiontier": "PASSAGE SPIRE",
     "id": 163,
-    "section": "SKY"
+    "section": "PASSAGE"
   },
   {
     "sectiontier": "AIR VALLEY",
     "id": 164,
-    "section": "SKY"
+    "section": "AIR"
   },
   {
     "sectiontier": "AIR SKY",
     "id": 165,
-    "section": "SKY"
+    "section": "AIR"
   },
   {
     "sectiontier": "AIR LAKE",
     "id": 166,
-    "section": "SKY"
+    "section": "AIR"
   },
   {
     "sectiontier": "AIR VAST",
     "id": 167,
-    "section": "SKY"
+    "section": "AIR"
   },
   {
     "sectiontier": "AIR SHORE",
     "id": 168,
-    "section": "SKY"
+    "section": "AIR"
   },
   {
     "sectiontier": "LAGOON PALM",
     "id": 169,
-    "section": "SKY"
+    "section": "LAGOON"
   },
   {
     "sectiontier": "LAGOON BEACH",
     "id": 170,
-    "section": "SKY"
+    "section": "LAGOON"
   },
   {
     "sectiontier": "LAGOON CLEAR",
     "id": 171,
-    "section": "SKY"
+    "section": "LAGOON"
   },
   {
     "sectiontier": "LAGOON STAR",
     "id": 172,
-    "section": "SKY"
+    "section": "LAGOON"
   },
   {
     "sectiontier": "LAGOON DUSK",
     "id": 173,
-    "section": "SKY"
+    "section": "LAGOON"
   },
   {
     "sectiontier": "PEAK VALLEY",
     "id": 174,
-    "section": "SKY"
+    "section": "PEAK"
   },
   {
     "sectiontier": "PEAK UP",
     "id": 175,
-    "section": "SKY"
+    "section": "PEAK"
   },
   {
     "sectiontier": "PEAK HEIGHT",
     "id": 176,
-    "section": "SKY"
+    "section": "PEAK"
   },
   {
     "sectiontier": "PEAK PEACE",
     "id": 177,
-    "section": "SKY"
+    "section": "PEAK"
   },
   {
     "sectiontier": "PEAK CREST",
     "id": 178,
-    "section": "SKY"
+    "section": "PEAK"
   },
   {
     "sectiontier": "ICE FROST",
     "id": 179,
-    "section": "SKY"
+    "section": "ICE"
   },
   {
     "sectiontier": "ICE FREEZE",
     "id": 180,
-    "section": "SKY"
+    "section": "ICE"
   },
   {
     "sectiontier": "ICE LIGHT",
     "id": 181,
-    "section": "SKY"
+    "section": "ICE"
   },
   {
     "sectiontier": "ICE MELT",
     "id": 182,
-    "section": "SKY"
+    "section": "ICE"
   },
   {
     "sectiontier": "ICE SNOW",
     "id": 183,
-    "section": "SKY"
+    "section": "ICE"
   },
   {
     "sectiontier": "BLOOM MIST",
     "id": 184,
-    "section": "SKY"
+    "section": "BLOOM"
   },
   {
     "sectiontier": "BLOOM POND",
     "id": 185,
-    "section": "SKY"
+    "section": "BLOOM"
   },
   {
     "sectiontier": "BLOOM SHINE",
     "id": 186,
-    "section": "SKY"
+    "section": "BLOOM"
   },
   {
     "sectiontier": "BLOOM GRASS",
     "id": 187,
-    "section": "SKY"
+    "section": "BLOOM"
   },
   {
     "sectiontier": "BLOOM FROND",
     "id": 188,
-    "section": "SKY"
+    "section": "BLOOM"
   },
   {
     "sectiontier": "FALL FOG",
     "id": 189,
-    "section": "SKY"
+    "section": "FALL"
   },
   {
     "sectiontier": "FALL BIRCH",
     "id": 190,
-    "section": "SKY"
+    "section": "FALL"
   },
   {
     "sectiontier": "FALL RUBY",
     "id": 191,
-    "section": "SKY"
+    "section": "FALL"
   },
   {
     "sectiontier": "FALL OAK",
     "id": 192,
-    "section": "SKY"
+    "section": "FALL"
   },
   {
     "sectiontier": "FALL GROVE",
     "id": 193,
-    "section": "SKY"
+    "section": "FALL"
   },
   {
     "sectiontier": "RAIN FOREST",
     "id": 194,
-    "section": "SKY"
+    "section": "RAIN"
   },
   {
     "sectiontier": "ROWS FIELD",
     "id": 195,
-    "section": "SKY"
+    "section": "ROWS"
   },
   {
     "sectiontier": "ROWS LINES",
     "id": 196,
-    "section": "SKY"
+    "section": "ROWS"
   },
   {
     "sectiontier": "ROWS FAR",
     "id": 197,
-    "section": "SKY"
+    "section": "ROWS"
   },
   {
     "sectiontier": "ROWS GRAIN",
     "id": 198,
-    "section": "SKY"
+    "section": "ROWS"
   },
   {
     "sectiontier": "ROWS SEED",
     "id": 199,
-    "section": "SKY"
+    "section": "ROWS"
   },
   {
     "sectiontier": "BASIN CHILL",
     "id": 200,
-    "section": "SKY"
+    "section": "BASIN"
   },
   {
     "sectiontier": "BASIN SLOPE",
     "id": 201,
-    "section": "SKY"
+    "section": "BASIN"
   },
   {
     "sectiontier": "BASIN ROCK",
     "id": 202,
-    "section": "SKY"
+    "section": "BASIN"
   },
   {
     "sectiontier": "BASIN COVE",
     "id": 203,
-    "section": "SKY"
+    "section": "BASIN"
   },
   {
     "sectiontier": "BASIN MARSH",
     "id": 204,
-    "section": "SKY"
+    "section": "BASIN"
   },
   {
     "sectiontier": "VIEW VIEW",
     "id": 205,
-    "section": "SKY"
+    "section": "VIEW"
   },
   {
     "sectiontier": "VIEW RIVER",
     "id": 206,
-    "section": "SKY"
+    "section": "VIEW"
   },
   {
     "sectiontier": "VIEW CLIFF",
     "id": 207,
-    "section": "SKY"
+    "section": "VIEW"
   },
   {
     "sectiontier": "VIEW RAPID",
     "id": 208,
-    "section": "SKY"
+    "section": "VIEW"
   },
   {
     "sectiontier": "VIEW PINE",
     "id": 209,
-    "section": "SKY"
+    "section": "VIEW"
   },
   {
     "sectiontier": "PRECIPICE BELOW",
     "id": 210,
-    "section": "SKY"
+    "section": "PRECIPICE"
   },
   {
     "sectiontier": "PRECIPICE COAST",
     "id": 211,
-    "section": "SKY"
+    "section": "PRECIPICE"
   },
   {
     "sectiontier": "PRECIPICE SEA",
     "id": 212,
-    "section": "SKY"
+    "section": "PRECIPICE"
   },
   {
     "sectiontier": "PRECIPICE LAVISH",
     "id": 213,
-    "section": "SKY"
+    "section": "PRECIPICE"
   },
   {
     "sectiontier": "PRECIPICE BLUFF",
     "id": 214,
-    "section": "SKY"
+    "section": "PRECIPICE"
   },
   {
     "sectiontier": "STARLIGHT LIGHT",
     "id": 215,
-    "section": "SKY"
+    "section": "STARLIGHT"
   },
   {
     "sectiontier": "STARLIGHT GAZE",
     "id": 216,
-    "section": "SKY"
+    "section": "STARLIGHT"
   },
   {
     "sectiontier": "STARLIGHT SKY",
     "id": 217,
-    "section": "SKY"
+    "section": "STARLIGHT"
   },
   {
     "sectiontier": "STARLIGHT WATCH",
     "id": 218,
-    "section": "SKY"
+    "section": "STARLIGHT"
   },
   {
     "sectiontier": "STARLIGHT SHINE",
     "id": 219,
-    "section": "SKY"
+    "section": "STARLIGHT"
   },
   {
     "sectiontier": "REFLECT GLASS",
     "id": 220,
-    "section": "SKY"
+    "section": "REFLECT"
   },
   {
     "sectiontier": "REFLECT STILL",
     "id": 221,
-    "section": "SKY"
+    "section": "REFLECT"
   },
   {
     "sectiontier": "REFLECT CREST",
     "id": 222,
-    "section": "SKY"
+    "section": "REFLECT"
   },
   {
     "sectiontier": "REFLECT RIPPLE",
     "id": 223,
-    "section": "SKY"
+    "section": "REFLECT"
   },
   {
     "sectiontier": "REFLECT ARISE",
     "id": 224,
-    "section": "SKY"
+    "section": "REFLECT"
   },
   {
     "sectiontier": "MAJESTY PYRE",
     "id": 225,
-    "section": "SKY"
+    "section": "MAJESTY"
   },
   {
     "sectiontier": "MAJESTY OPAL",
     "id": 226,
-    "section": "SKY"
+    "section": "MAJESTY"
   },
   {
     "sectiontier": "MAJESTY ZEAL",
     "id": 227,
-    "section": "SKY"
+    "section": "MAJESTY"
   },
   {
     "sectiontier": "MAJESTY FIT",
     "id": 228,
-    "section": "SKY"
+    "section": "MAJESTY"
   },
   {
     "sectiontier": "MAJESTY SPACE",
     "id": 229,
-    "section": "SKY"
+    "section": "MAJESTY"
   },
   {
     "sectiontier": "ASTRAL BRIGHT",
     "id": 230,
-    "section": "SKY"
+    "section": "ASTRAL"
   },
   {
     "sectiontier": "ASTRAL EMIT",
     "id": 231,
-    "section": "SKY"
+    "section": "ASTRAL"
   },
   {
     "sectiontier": "ASTRAL SOL",
     "id": 232,
-    "section": "SKY"
+    "section": "ASTRAL"
   },
   {
     "sectiontier": "ASTRAL ARISE",
     "id": 233,
-    "section": "SKY"
+    "section": "ASTRAL"
   },
   {
     "sectiontier": "ASTRAL GIFT",
     "id": 234,
-    "section": "SKY"
+    "section": "ASTRAL"
   },
   {
     "sectiontier": "STONE BASK",
     "id": 235,
-    "section": "SKY"
+    "section": "STONE"
   },
   {
     "sectiontier": "STONE WALL",
     "id": 236,
-    "section": "SKY"
+    "section": "STONE"
   },
   {
     "sectiontier": "STONE CHISEL",
     "id": 237,
-    "section": "SKY"
+    "section": "STONE"
   },
   {
     "sectiontier": "STONE TOWER",
     "id": 238,
-    "section": "SKY"
+    "section": "STONE"
   },
   {
     "sectiontier": "STONE WISP",
     "id": 239,
-    "section": "SKY"
+    "section": "STONE"
   },
   {
     "sectiontier": "GREEN FERN",
     "id": 240,
-    "section": "SKY"
+    "section": "GREEN"
   },
   {
     "sectiontier": "GREEN LEAF",
     "id": 241,
-    "section": "TROPIC"
+    "section": "GREEN"
   },
   {
     "sectiontier": "GREEN AERIAL",
     "id": 242,
-    "section": "TROPIC"
+    "section": "GREEN"
   },
   {
     "sectiontier": "GREEN BANK",
     "id": 243,
-    "section": "TROPIC"
+    "section": "GREEN"
   },
   {
     "sectiontier": "GREEN ROLL",
     "id": 244,
-    "section": "TROPIC"
+    "section": "GREEN"
   },
   {
     "sectiontier": "WEST HEAT",
     "id": 245,
-    "section": "TROPIC"
+    "section": "WEST"
   },
   {
     "sectiontier": "WEST ERODE",
     "id": 246,
-    "section": "TROPIC"
+    "section": "WEST"
   },
   {
     "sectiontier": "WEST BARE",
     "id": 247,
-    "section": "TROPIC"
+    "section": "WEST"
   },
   {
     "sectiontier": "WEST SET",
     "id": 248,
-    "section": "TROPIC"
+    "section": "WEST"
   },
   {
     "sectiontier": "WEST FUCHSIA",
     "id": 249,
-    "section": "TROPIC"
+    "section": "WEST"
   },
   {
     "sectiontier": "WIND BREEZE",
     "id": 250,
-    "section": "TROPIC"
+    "section": "WIND"
   },
   {
     "sectiontier": "WIND GUST",
     "id": 251,
-    "section": "TROPIC"
+    "section": "WIND"
   },
   {
     "sectiontier": "WIND AIR",
     "id": 252,
-    "section": "TROPIC"
+    "section": "WIND"
   },
   {
     "sectiontier": "WIND GALE",
     "id": 253,
-    "section": "TROPIC"
+    "section": "WIND"
   },
   {
     "sectiontier": "WIND WHISK",
     "id": 254,
-    "section": "TROPIC"
+    "section": "WIND"
   },
   {
     "sectiontier": "SHORE SAND",
     "id": 255,
-    "section": "TROPIC"
+    "section": "SHORE"
   },
   {
     "sectiontier": "SHORE BRIM",
     "id": 256,
-    "section": "TROPIC"
+    "section": "SHORE"
   },
   {
     "sectiontier": "SHORE BANK",
     "id": 257,
-    "section": "TROPIC"
+    "section": "SHORE"
   },
   {
     "sectiontier": "SHORE TIDE",
     "id": 258,
-    "section": "TROPIC"
+    "section": "SHORE"
   },
   {
     "sectiontier": "SHORE SEA",
     "id": 259,
-    "section": "TROPIC"
+    "section": "SHORE"
   },
   {
     "sectiontier": "RAVINE GULLY",
     "id": 260,
-    "section": "TROPIC"
+    "section": "RAVINE"
   },
   {
     "sectiontier": "RAVINE CHASM",
     "id": 261,
-    "section": "TROPIC"
+    "section": "RAVINE"
   },
   {
     "sectiontier": "RAVINE FLUME",
     "id": 262,
-    "section": "TROPIC"
+    "section": "RAVINE"
   },
   {
     "sectiontier": "RAVINE PASS",
     "id": 263,
-    "section": "TROPIC"
+    "section": "RAVINE"
   },
   {
     "sectiontier": "RAVINE DEPTH",
     "id": 264,
-    "section": "TROPIC"
+    "section": "RAVINE"
   },
   {
     "sectiontier": "BOTANICAL GRASS",
     "id": 265,
-    "section": "TROPIC"
+    "section": "BOTANICAL"
   },
   {
     "sectiontier": "BOTANICAL VINE",
     "id": 266,
-    "section": "TROPIC"
+    "section": "BOTANICAL"
   },
   {
     "sectiontier": "BOTANICAL SHRUB",
     "id": 267,
-    "section": "TROPIC"
+    "section": "BOTANICAL"
   },
   {
     "sectiontier": "BOTANICAL FLOWER",
     "id": 268,
-    "section": "TROPIC"
+    "section": "BOTANICAL"
   },
   {
     "sectiontier": "BOTANICAL TREE",
     "id": 269,
-    "section": "TROPIC"
+    "section": "BOTANICAL"
   },
   {
     "sectiontier": "ARCTIC GLACIAL",
     "id": 270,
-    "section": "TROPIC"
+    "section": "ARCTIC"
   },
   {
     "sectiontier": "ARCTIC FRIGID",
     "id": 271,
-    "section": "TROPIC"
+    "section": "ARCTIC"
   },
   {
     "sectiontier": "ARCTIC POLAR",
     "id": 272,
-    "section": "TROPIC"
+    "section": "ARCTIC"
   },
   {
     "sectiontier": "ARCTIC GLAZE",
     "id": 273,
-    "section": "TROPIC"
+    "section": "ARCTIC"
   },
   {
     "sectiontier": "ARCTIC ICE",
     "id": 274,
-    "section": "TROPIC"
+    "section": "ARCTIC"
   },
   {
     "sectiontier": "GALAXY CELEST",
     "id": 275,
-    "section": "TROPIC"
+    "section": "GALAXY"
   },
   {
     "sectiontier": "GALAXY SKY",
     "id": 276,
-    "section": "TROPIC"
+    "section": "GALAXY"
   },
   {
     "sectiontier": "GALAXY SOL",
     "id": 277,
-    "section": "TROPIC"
+    "section": "GALAXY"
   },
   {
     "sectiontier": "GALAXY DEPTH",
     "id": 278,
-    "section": "TROPIC"
+    "section": "GALAXY"
   },
   {
     "sectiontier": "GALAXY MOON",
     "id": 279,
-    "section": "TROPIC"
+    "section": "GALAXY"
   },
   {
     "sectiontier": "TOWER CRAG",
     "id": 280,
-    "section": "TROPIC"
+    "section": "TOWER"
   },
   {
     "sectiontier": "TOWER GEODE",
     "id": 281,
-    "section": "TROPIC"
+    "section": "TOWER"
   },
   {
     "sectiontier": "TOWER GRAND",
     "id": 282,
-    "section": "TROPIC"
+    "section": "TOWER"
   },
   {
     "sectiontier": "TOWER CREST",
     "id": 283,
-    "section": "TROPIC"
+    "section": "TOWER"
   },
   {
     "sectiontier": "TOWER TOP",
     "id": 284,
-    "section": "TROPIC"
+    "section": "TOWER"
   },
   {
     "sectiontier": "PLACID STILL",
     "id": 285,
-    "section": "TROPIC"
+    "section": "PLACID"
   },
   {
     "sectiontier": "PLACID CALM",
     "id": 286,
-    "section": "TROPIC"
+    "section": "PLACID"
   },
   {
     "sectiontier": "PLACID QUELL",
     "id": 287,
-    "section": "TROPIC"
+    "section": "PLACID"
   },
   {
     "sectiontier": "PLACID FLAT",
     "id": 288,
-    "section": "TROPIC"
+    "section": "PLACID"
   },
   {
     "sectiontier": "PLACID BARE",
     "id": 289,
-    "section": "TROPIC"
+    "section": "PLACID"
   },
   {
     "sectiontier": "THRIVE BUD",
     "id": 290,
-    "section": "TROPIC"
+    "section": "THRIVE"
   },
   {
     "sectiontier": "THRIVE SEED",
     "id": 291,
-    "section": "TROPIC"
+    "section": "THRIVE"
   },
   {
     "sectiontier": "THRIVE JADE",
     "id": 292,
-    "section": "TROPIC"
+    "section": "THRIVE"
   },
   {
     "sectiontier": "THRIVE FERN",
     "id": 293,
-    "section": "TROPIC"
+    "section": "THRIVE"
   },
   {
     "sectiontier": "THRIVE VERDE",
     "id": 294,
-    "section": "TROPIC"
+    "section": "THRIVE"
   },
   {
     "sectiontier": "PARCHED CRAG",
     "id": 295,
-    "section": "TROPIC"
+    "section": "PARCHED"
   },
   {
     "sectiontier": "PARCHED SWEPT",
     "id": 296,
-    "section": "TROPIC"
+    "section": "PARCHED"
   },
   {
     "sectiontier": "PARCHED PLAIN",
     "id": 297,
-    "section": "TROPIC"
+    "section": "PARCHED"
   },
   {
     "sectiontier": "PARCHED DUST",
     "id": 298,
-    "section": "TROPIC"
+    "section": "PARCHED"
   },
   {
     "sectiontier": "PARCHED WARM",
     "id": 299,
-    "section": "TROPIC"
+    "section": "PARCHED"
   },
   {
     "sectiontier": "FRIGID ICICLE",
     "id": 300,
-    "section": "TROPIC"
+    "section": "FRIGID"
   },
   {
     "sectiontier": "FRIGID SLEET",
     "id": 301,
-    "section": "TROPIC"
+    "section": "FRIGID"
   },
   {
     "sectiontier": "FRIGID CHILL",
     "id": 302,
-    "section": "TROPIC"
+    "section": "FRIGID"
   },
   {
     "sectiontier": "FRIGID SHIVER",
     "id": 303,
-    "section": "TROPIC"
+    "section": "FRIGID"
   },
   {
     "sectiontier": "FRIGID CUBE",
     "id": 304,
-    "section": "TROPIC"
+    "section": "FRIGID"
   },
   {
     "sectiontier": "FLOURISH BULB",
     "id": 305,
-    "section": "TROPIC"
+    "section": "FLOURISH"
   },
   {
     "sectiontier": "FLOURISH FLOAT",
     "id": 306,
-    "section": "TROPIC"
+    "section": "FLOURISH"
   },
   {
     "sectiontier": "FLOURISH BUD",
     "id": 307,
-    "section": "TROPIC"
+    "section": "FLOURISH"
   },
   {
     "sectiontier": "FLOURISH POLLEN",
     "id": 308,
-    "section": "TROPIC"
+    "section": "FLOURISH"
   },
   {
     "sectiontier": "FLOURISH BLOOM",
     "id": 309,
-    "section": "TROPIC"
+    "section": "FLOURISH"
   },
   {
     "sectiontier": "AURORA STAR",
     "id": 310,
-    "section": "TROPIC"
+    "section": "AURORA"
   },
   {
     "sectiontier": "AURORA WAY",
     "id": 311,
-    "section": "TROPIC"
+    "section": "AURORA"
   },
   {
     "sectiontier": "AURORA BASK",
     "id": 312,
-    "section": "TROPIC"
+    "section": "AURORA"
   },
   {
     "sectiontier": "AURORA VAST",
     "id": 313,
-    "section": "TROPIC"
+    "section": "AURORA"
   },
   {
     "sectiontier": "AURORA SPACE",
     "id": 314,
-    "section": "TROPIC"
+    "section": "AURORA"
   },
   {
     "sectiontier": "CREST FAULT",
     "id": 315,
-    "section": "TROPIC"
+    "section": "CREST"
   },
   {
     "sectiontier": "CREST PEAK",
     "id": 316,
-    "section": "TROPIC"
+    "section": "CREST"
   },
   {
     "sectiontier": "CREST CRAG",
     "id": 317,
-    "section": "TROPIC"
+    "section": "CREST"
   },
   {
     "sectiontier": "CREST HIGH",
     "id": 318,
-    "section": "TROPIC"
+    "section": "CREST"
   },
   {
     "sectiontier": "CREST CLIMB",
     "id": 319,
-    "section": "TROPIC"
+    "section": "CREST"
   },
   {
     "sectiontier": "FOLIAGE WOOD",
     "id": 320,
-    "section": "TROPIC"
+    "section": "FOLIAGE"
   },
   {
     "sectiontier": "FOLIAGE MIST",
     "id": 321,
-    "section": "MOUNTAIN"
+    "section": "FOLIAGE"
   },
   {
     "sectiontier": "FOLIAGE PATH",
     "id": 322,
-    "section": "MOUNTAIN"
+    "section": "FOLIAGE"
   },
   {
     "sectiontier": "FOLIAGE LUSH",
     "id": 323,
-    "section": "MOUNTAIN"
+    "section": "FOLIAGE"
   },
   {
     "sectiontier": "FOLIAGE GROVE",
     "id": 324,
-    "section": "MOUNTAIN"
+    "section": "FOLIAGE"
   },
   {
     "sectiontier": "WILDWOOD MARSH",
     "id": 325,
-    "section": "MOUNTAIN"
+    "section": "WILDWOOD"
   },
   {
     "sectiontier": "WILDWOOD ERODE",
     "id": 326,
-    "section": "MOUNTAIN"
+    "section": "WILDWOOD"
   },
   {
     "sectiontier": "WILDWOOD SOLICE",
     "id": 327,
-    "section": "MOUNTAIN"
+    "section": "WILDWOOD"
   },
   {
     "sectiontier": "WILDWOOD ADRIFT",
     "id": 328,
-    "section": "MOUNTAIN"
+    "section": "WILDWOOD"
   },
   {
     "sectiontier": "WILDWOOD INLET",
     "id": 329,
-    "section": "MOUNTAIN"
+    "section": "WILDWOOD"
   },
   {
     "sectiontier": "BARE TOWER",
     "id": 330,
-    "section": "MOUNTAIN"
+    "section": "BARE"
   },
   {
     "sectiontier": "BARE STONE",
     "id": 331,
-    "section": "MOUNTAIN"
+    "section": "BARE"
   },
   {
     "sectiontier": "BARE DESERT",
     "id": 332,
-    "section": "MOUNTAIN"
+    "section": "BARE"
   },
   {
     "sectiontier": "BARE KNOLL",
     "id": 333,
-    "section": "MOUNTAIN"
+    "section": "BARE"
   },
   {
     "sectiontier": "BARE BRINK",
     "id": 334,
-    "section": "MOUNTAIN"
+    "section": "BARE"
   },
   {
     "sectiontier": "HIGH SEAS",
     "id": 335,
-    "section": "MOUNTAIN"
+    "section": "HIGH"
   },
   {
     "sectiontier": "MEADOW SOAR",
     "id": 336,
-    "section": "MOUNTAIN"
+    "section": "MEADOW"
   },
   {
     "sectiontier": "MEADOW LANE",
     "id": 337,
-    "section": "MOUNTAIN"
+    "section": "MEADOW"
   },
   {
     "sectiontier": "MEADOW FALL",
     "id": 338,
-    "section": "MOUNTAIN"
+    "section": "MEADOW"
   },
   {
     "sectiontier": "MEADOW GALE",
     "id": 339,
-    "section": "MOUNTAIN"
+    "section": "MEADOW"
   },
   {
     "sectiontier": "MEADOW GOLD",
     "id": 340,
-    "section": "MOUNTAIN"
+    "section": "MEADOW"
   },
   {
     "sectiontier": "TARN STILL",
     "id": 341,
-    "section": "MOUNTAIN"
+    "section": "TARN"
   },
   {
     "sectiontier": "TARN ROCK",
     "id": 342,
-    "section": "MOUNTAIN"
+    "section": "TARN"
   },
   {
     "sectiontier": "TARN PLACID",
     "id": 343,
-    "section": "MOUNTAIN"
+    "section": "TARN"
   },
   {
     "sectiontier": "TARN STILL2",
     "id": 344,
-    "section": "MOUNTAIN"
+    "section": "TARN"
   },
   {
     "sectiontier": "TARN PEACE",
     "id": 345,
-    "section": "MOUNTAIN"
+    "section": "TARN"
   },
   {
     "sectiontier": "SUMMIT RISE",
     "id": 346,
-    "section": "MOUNTAIN"
+    "section": "SUMMIT"
   },
   {
     "sectiontier": "SUMMIT ALOFT",
     "id": 347,
-    "section": "MOUNTAIN"
+    "section": "SUMMIT"
   },
   {
     "sectiontier": "SUMMIT FREE",
     "id": 348,
-    "section": "MOUNTAIN"
+    "section": "SUMMIT"
   },
   {
     "sectiontier": "SUMMIT FLOW",
     "id": 349,
-    "section": "MOUNTAIN"
+    "section": "SUMMIT"
   },
   {
     "sectiontier": "SUMMIT REACH",
     "id": 350,
-    "section": "MOUNTAIN"
+    "section": "SUMMIT"
   },
   {
     "sectiontier": "BLUFF HAZE",
     "id": 351,
-    "section": "MOUNTAIN"
+    "section": "BLUFF"
   },
   {
     "sectiontier": "BLUFF JOIN",
     "id": 352,
-    "section": "MOUNTAIN"
+    "section": "BLUFF"
   },
   {
     "sectiontier": "BLUFF BLUSH",
     "id": 353,
-    "section": "MOUNTAIN"
+    "section": "BLUFF"
   },
   {
     "sectiontier": "BLUFF FLOCK",
     "id": 354,
-    "section": "MOUNTAIN"
+    "section": "BLUFF"
   },
   {
     "sectiontier": "BLUFF VISTA",
     "id": 355,
-    "section": "MOUNTAIN"
+    "section": "BLUFF"
   },
   {
     "sectiontier": "STRAND GLEAM",
     "id": 356,
-    "section": "MOUNTAIN"
+    "section": "STRAND"
   },
   {
     "sectiontier": "STRAND CHASE",
     "id": 357,
-    "section": "MOUNTAIN"
+    "section": "STRAND"
   },
   {
     "sectiontier": "STRAND BANK",
     "id": 358,
-    "section": "MOUNTAIN"
+    "section": "STRAND"
   },
   {
     "sectiontier": "STRAND TIDE",
     "id": 359,
-    "section": "MOUNTAIN"
+    "section": "STRAND"
   },
   {
     "sectiontier": "STRAND SOAK",
     "id": 360,
-    "section": "MOUNTAIN"
+    "section": "STRAND"
   },
   {
     "sectiontier": "CLOUD GROVE",
     "id": 361,
-    "section": "MOUNTAIN"
+    "section": "CLOUD"
   },
   {
     "sectiontier": "CLOUD VALE",
     "id": 362,
-    "section": "MOUNTAIN"
+    "section": "CLOUD"
   },
   {
     "sectiontier": "CLOUD POND",
     "id": 363,
-    "section": "MOUNTAIN"
+    "section": "CLOUD"
   },
   {
     "sectiontier": "CLOUD FIELD",
     "id": 364,
-    "section": "MOUNTAIN"
+    "section": "CLOUD"
   },
   {
     "sectiontier": "CLOUD STEAM",
     "id": 365,
-    "section": "MOUNTAIN"
+    "section": "CLOUD"
   },
   {
     "sectiontier": "SUBLIME MOOD",
     "id": 366,
-    "section": "MOUNTAIN"
+    "section": "SUBLIME"
   },
   {
     "sectiontier": "SUBLIME MOON",
     "id": 367,
-    "section": "MOUNTAIN"
+    "section": "SUBLIME"
   },
   {
     "sectiontier": "SUBLIME STARS",
     "id": 368,
-    "section": "MOUNTAIN"
+    "section": "SUBLIME"
   },
   {
     "sectiontier": "SUBLIME ARCTIC",
     "id": 369,
-    "section": "MOUNTAIN"
+    "section": "SUBLIME"
   },
   {
     "sectiontier": "SUBLIME SAILS",
     "id": 370,
-    "section": "MOUNTAIN"
+    "section": "SUBLIME"
   }
 ]

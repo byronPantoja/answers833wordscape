@@ -16,10 +16,10 @@ const TierCard = ({
           <Link
             href={`/tier/?id=${id}`}
           >
-            {sectiontier}
-          </Link>
+            <a>{sectiontier}</a>
+          </Link>{' '}
+          {id}
         </h3>
-        <p>{id}</p>
       </div>
     </div>
   );
