@@ -4,7 +4,7 @@ import Header from 'components/Header';
 import answersData from 'data/answersData';
 import LevelCard from 'components/LevelCard';
 import TierCard from 'components/TierCard';
-import SectionCard from 'components/SectionCard';
+import SectionGallery from 'components/SectionGallery';
 
 const Home = () => {
   const router = useRouter();
@@ -25,7 +25,7 @@ const Home = () => {
         />
       </Head>
       <Header>
-        <SectionCard />
+        <SectionGallery />
       </Header>
     </>
   );

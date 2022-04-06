@@ -114076,8 +114076,6 @@ sectionTierData.map((item, index) => {
     : '';
 })
 
-console.log("add section", sectionTierData)
-
 module.exports = {
   answersData,
   sectionsData,
