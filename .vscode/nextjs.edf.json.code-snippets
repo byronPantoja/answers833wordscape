@@ -1,0 +1,13 @@
+{
+  "Const Function Export Default": {
+    "prefix": "cfed",
+    "body": [
+      "const $TM_FILENAME_BASE = () => {",
+      "\treturn <div>$TM_FILENAME_BASE</div>",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "NextJS Const Function Export Default"
+  }
+}
