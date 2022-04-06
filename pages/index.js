@@ -5,6 +5,7 @@ import answersData from 'data/answersData';
 import LevelCard from 'components/LevelCard';
 import TierCard from 'components/TierCard';
 import SectionGallery from 'components/SectionGallery';
+import LevelCardGalllery from 'components/LevelCardGalllery';
 
 const Home = () => {
   const router = useRouter();
