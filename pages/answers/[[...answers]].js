@@ -28,7 +28,7 @@ const LevelAnswerPage = () => {
         >
           <div className='mt-3 text-sm'>
             <Link
-              href={`/${
+              href={`/answers${
                 level.urlprev
                   ? `${
                       level.urlprev
