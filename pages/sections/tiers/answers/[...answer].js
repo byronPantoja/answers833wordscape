@@ -15,6 +15,8 @@ const LevelAnswerPage = () => {
         <LevelCard
           id={level.id}
           url={level.url}
+          urlnext={level.urlnext}
+          urlprev={level.urlprev}
           title={level.title}
           tier={level.tier}
           section={level.section}
@@ -23,7 +25,41 @@ const LevelAnswerPage = () => {
             level.sectiontier
           }
           level={level.level}
-        />
+        >
+          <div className='mt-4 text-sm'>
+            <Link
+              href={`/sections/tiers/answers${
+                level.urlprev
+              }/?id=${
+                parseInt(id) <= 1
+                  ? 1
+                  : parseInt(id) - 1
+              }`}
+            >
+              <a className='pr-5 font-medium text-indigo-600 hover:text-indigo-500'>
+                <span aria-hidden='true'>
+                  &larr;
+                </span>{' '}
+                prev
+              </a>
+            </Link>
+            <Link
+              href={`/sections/tiers/answers${
+                level.urlnext
+              }/?id=${
+                parseInt(id) + 1
+              }`}
+            >
+              <a className='pl-5 font-medium text-indigo-600 hover:text-indigo-500'>
+                {' '}
+                next
+                <span aria-hidden='true'>
+                  &rarr;
+                </span>
+              </a>
+            </Link>
+          </div>
+        </LevelCard>
       </div>
     ));
 

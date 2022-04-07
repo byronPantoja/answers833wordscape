@@ -15,6 +15,7 @@ const LevelCard = ({
   sectiontier,
   tier,
   level,
+  children,
 }) => {
   return (
     <div key={id} className='pt-6'>
@@ -39,35 +40,7 @@ const LevelCard = ({
             {answer}
           </h3>
         </div>
-        <div className='mt-3 text-sm'>
-          <Link
-            href={`/sections/tiers/answers/${url}/?id=${
-              parseInt(id) <= 1
-                ? 1
-                : parseInt(id) - 1
-            }`}
-          >
-            <a className='pr-5 font-medium text-indigo-600 hover:text-indigo-500'>
-              <span aria-hidden='true'>
-                &larr;
-              </span>{' '}
-              prev
-            </a>
-          </Link>
-          <Link
-            href={`/sections/tiers/answers/${url}/?id=${
-              parseInt(id) + 1
-            }`}
-          >
-            <a className='pl-5 font-medium text-indigo-600 hover:text-indigo-500'>
-              {' '}
-              next
-              <span aria-hidden='true'>
-                &rarr;
-              </span>
-            </a>
-          </Link>
-        </div>
+        {children}
       </div>
     </div>
   );
