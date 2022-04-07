@@ -6,7 +6,6 @@ import Header from 'components/Header';
 const SectionTier = () => {
   const router = useRouter();
   const { sectiontier } = router.query;
-  console.log('query', sectiontier);
 
   const stPage = levels
     .filter(

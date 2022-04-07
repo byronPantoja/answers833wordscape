@@ -1,3 +1,4 @@
+import levels from 'data/levels.json';
 import LevelCard from 'components/LevelCard';
 
 const LevelCardGalllery = () => {

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Header = ({ children }) => {
   return (
     <main>
@@ -6,13 +8,16 @@ const Header = ({ children }) => {
           <h2 className='text-base font-semibold uppercase tracking-wider text-indigo-600'>
             Coded by Developer833
           </h2>
-          <p className='mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
-            Wordscape Answers
-          </p>
+          <Link href={'/'}>
+            <a className='mt-5 text-4xl font-extrabold tracking-tight text-gray-900 hover:text-green-600 sm:text-4xl'>
+              Wordscape Answers
+            </a>
+          </Link>
           <p className='mx-auto mt-5 max-w-prose text-xl text-gray-500'>
             Project Neo Mentorship
             Excercise
           </p>
+
           {children}
         </div>
       </div>

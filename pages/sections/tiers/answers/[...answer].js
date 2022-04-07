@@ -26,14 +26,16 @@ const LevelAnswerPage = () => {
           }
           level={level.level}
         >
-          <div className='mt-4 text-sm'>
+          <div className='mt-3 text-sm'>
             <Link
               href={`/sections/tiers/answers${
                 level.urlprev
-              }/?id=${
-                parseInt(id) <= 1
-                  ? 1
-                  : parseInt(id) - 1
+                  ? `${
+                      level.urlprev
+                    }/?id=${
+                      parseInt(id) - 1
+                    }`
+                  : ''
               }`}
             >
               <a className='pr-5 font-medium text-indigo-600 hover:text-indigo-500'>
