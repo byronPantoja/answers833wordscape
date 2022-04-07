@@ -22,7 +22,7 @@ const LevelCard = ({
       <div className='flow-root rounded-lg bg-gray-50 hover:bg-gray-100 px-6 py-8'>
         <div className='-mt-6'>
           <Link
-            href={`/sections/tiers/answers${url}/?id=${id}`}
+            href={`/answers/${url}/${id}/?id=${id}`}
           >
             <a className='pr-5 font-medium text-indigo-600 hover:text-indigo-500'>
               <h3 className='mt-8 text-lg font-medium tracking-tight text-teal-600 hover:text-green-800'>

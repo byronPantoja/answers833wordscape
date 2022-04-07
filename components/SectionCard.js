@@ -10,7 +10,7 @@ const SectionCard = ({
         <div className='-mt-6'>
           <h3 className='mt-8 text-lg font-medium tracking-tight text-teal-600 hover:text-teal-400'>
             <Link
-              href={`/sections/?section=${section}`}
+              href={`/answers/${section.toLowerCase()}?section=${section}`}
             >
               <a>{section}</a>
             </Link>
