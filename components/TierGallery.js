@@ -1,4 +1,5 @@
-import TierCard from './TierCard';
+import TierCard from 'components/TierCard';
+import tiers from 'data/tiers.json';
 
 const TierGallery = () => {
   const tierCard = tiers.map((tier) => (

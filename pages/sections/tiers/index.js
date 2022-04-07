@@ -1,8 +1,6 @@
 import levels from 'data/levels.json';
-import tiers from 'data/tiers.json';
 import LevelCard from 'components/LevelCard';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 import Header from 'components/Header';
 
 const SectionTier = () => {
@@ -37,12 +35,13 @@ const SectionTier = () => {
   );
   return (
     <>
-      <Header />
-      <div className='mt-12'>
-        <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
-          {stPage}
+      <Header>
+        <div className='mt-12'>
+          <div className='grid grid-cols-1 gap-8 '>
+            {stPage}
+          </div>
         </div>
-      </div>
+      </Header>
     </>
   );
 };

@@ -1,14 +1,13 @@
-import Link from 'next/link';
 import SectionCard from 'components/SectionCard';
 import sections from 'data/sections.json';
 
 const SectionGallery = () => {
   const sectionCard = sections.map(
-    (s) => (
+    (section) => (
       <SectionCard
-        key={s.id}
-        section={s.section}
-        id={s.id}
+        key={section.id}
+        section={section.section}
+        id={section.id}
       />
     )
   );
