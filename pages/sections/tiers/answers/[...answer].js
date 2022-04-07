@@ -48,8 +48,12 @@ const LevelAnswerPage = () => {
             <Link
               href={`/sections/tiers/answers${
                 level.urlnext
-              }/?id=${
-                parseInt(id) + 1
+                  ? `${
+                      level.urlnext
+                    }/?id=${
+                      parseInt(id) + 1
+                    }`
+                  : ``
               }`}
             >
               <a className='pl-5 font-medium text-indigo-600 hover:text-indigo-500'>
