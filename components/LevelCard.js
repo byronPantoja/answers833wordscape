@@ -20,9 +20,15 @@ const LevelCard = ({
     <div key={id} className='pt-6'>
       <div className='flow-root rounded-lg bg-gray-50 hover:bg-gray-100 px-6 py-8'>
         <div className='-mt-6'>
-          <h3 className='mt-8 text-lg font-medium tracking-tight text-teal-600 hover:text-green-800'>
-            {level}
-          </h3>
+          <Link
+            href={`/sections/tiers/answers${url}/?id=${id}`}
+          >
+            <a className='pr-5 font-medium text-indigo-600 hover:text-indigo-500'>
+              <h3 className='mt-8 text-lg font-medium tracking-tight text-teal-600 hover:text-green-800'>
+                {level}
+              </h3>
+            </a>
+          </Link>
           <p className='mt-5 text-base text-gray-500'>
             The answer for this level
             is:
@@ -35,7 +41,11 @@ const LevelCard = ({
         </div>
         <div className='mt-3 text-sm'>
           <Link
-            href={`/level${url}?level=${id}`}
+            href={`/sections/tiers/answers/${url}/?id=${
+              parseInt(id) <= 1
+                ? 1
+                : parseInt(id) - 1
+            }`}
           >
             <a className='pr-5 font-medium text-indigo-600 hover:text-indigo-500'>
               <span aria-hidden='true'>
@@ -45,7 +55,9 @@ const LevelCard = ({
             </a>
           </Link>
           <Link
-            href={`/level${url}?level=${id}`}
+            href={`/sections/tiers/answers/${url}/?id=${
+              parseInt(id) + 1
+            }`}
           >
             <a className='pl-5 font-medium text-indigo-600 hover:text-indigo-500'>
               {' '}

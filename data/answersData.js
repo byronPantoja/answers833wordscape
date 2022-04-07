@@ -113978,6 +113978,63 @@ const LevelTitles = answersData.map(
       })
 );
 
+const nextURL = answersData.map(
+  (a) =>
+    a.urlnext ? a.urlnext
+      .split('/')
+      .filter((element) => {
+        return (
+          element !== '' &&
+          element !== 'wordscapeshelper.com' &&
+          element !== 'answers'
+        );
+      }) : null
+);
+
+const prevURL = answersData.map(
+  (a) =>
+  a.urlprev ? a.urlprev
+      .split('/')
+      .filter((element) => {
+        return (
+          element !== '' &&
+          element !== 'wordscapeshelper.com' &&
+          element !== 'answers'
+        );
+      }) : null
+);
+
+
+answersData.map((item, index) => {
+  // changes urlnext to  '/section/tier/tierLevel'
+  item.urlnext = nextURL[index]
+    ? '/' +
+      //section
+      nextURL[index][0] +
+      '/' +
+      //tier
+      nextURL[index][1] +
+      '/' +
+      //tierlevel
+      nextURL[index][2]
+    : ''
+  })
+
+answersData.map((item, index) => {
+item.urlprev = prevURL[index]
+    ? '/' +
+      //section
+      prevURL[index][0] +
+      '/' +
+      //tier
+      prevURL[index][1] +
+      '/' +
+      //tierlevel
+      prevURL[index][2]
+    : '';
+})
+
+
 //map and push level tags into the object as:
 answersData.map((item, index) => {
   // changes url to  '/section/tier/tierLevel'
@@ -114075,7 +114132,8 @@ sectiontierData.map((item, index) => {
     .split(' ')
     .shift();
 });
-console.log('section', sectiontierData);
+
+console.log('answersData', answersData);
 
 module.exports = {
   answersData,

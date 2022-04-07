@@ -27,12 +27,6 @@ const SectionTier = () => {
       />
     ));
 
-  console.log(
-    'match',
-    levels.map(
-      (level) => level.sectiontier
-    )
-  );
   return (
     <>
       <Header>
