@@ -3,7 +3,6 @@ import tiers from 'data/tiers.json';
 import TierCard from 'components/TierCard';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import PageFilter from 'components/PageFilter';
 import Header from 'components/Header';
 
 const TierPage = () => {
@@ -15,7 +14,7 @@ const TierPage = () => {
     .filter((t) => t.section == section)
     .map((tier) => (
       <TierCard
-        key={tier}
+        key={tier.id}
         section={tier.section}
         sectiontier={tier.sectiontier}
         id={tier.id}

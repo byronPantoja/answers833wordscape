@@ -6,7 +6,14 @@ const LevelCardGalllery = () => {
     (lvl) => (
       <LevelCard
         key={lvl.id}
-        {...lvl}
+        id={lvl.id}
+        url={lvl.url}
+        title={lvl.title}
+        tier={lvl.tier}
+        section={lvl.section}
+        answer={lvl.answer}
+        sectiontier={lvl.sectiontier}
+        level={lvl.level}
       />
     )
   );

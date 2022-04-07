@@ -113998,8 +113998,8 @@ answersData.map((item, index) => {
         index
       ][0].toUpperCase()
     : '';
-  // adds 'sectionTier' to object
-  item.sectionTier = LevelTitles[index]
+  // adds 'sectiontier' to object
+  item.sectiontier = LevelTitles[index]
     ? (
         LevelTitles[index][0] +
         ' ' +
@@ -114049,16 +114049,16 @@ sectionsData.map((item, index) => {
 
 // maps answersData and creates a new array of the 'section tier(s)'
 const secTiers = answersData.map(
-  (a) => a.sectionTier
+  (a) => a.sectiontier
 );
 // removes duplicates of array
-let sectionTiers = [
+let sectiontiers = [
   ...new Set(secTiers),
 ];
 
 // pushes 'section-tier' as the key in the array ie./ 'section-tier: sunrise rise'
-const sectionTierData =
-  sectionTiers.reduce((s, a) => {
+const sectiontierData =
+  sectiontiers.reduce((s, a) => {
     s.push({
       sectiontier: a,
     });
@@ -114066,20 +114066,19 @@ const sectionTierData =
   }, []);
 
 // adds id to section tier titles
-sectionTierData.map((item, index) => {
+sectiontierData.map((item, index) => {
   item.id = index + 1;
   // adds section
-  item.section = sectionTierData[
+  item.section = sectiontierData[
     index
   ].sectiontier
     .split(' ')
     .shift();
 });
-console.log('section', sectionTierData);
-
+console.log('section', sectiontierData);
 
 module.exports = {
   answersData,
   sectionsData,
-  sectionTierData,
+  sectiontierData,
 };
