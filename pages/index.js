@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Header from 'components/Header';
 import SectionGallery from 'components/SectionGallery';
-import answersData from 'data/answersData';
+
 const Home = () => {
   return (
     <>
