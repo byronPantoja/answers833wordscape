@@ -1,13 +1,26 @@
 import SectionCard from 'components/SectionCard';
-import sections from 'data/sections.json';
+import levels from 'data/levels.json';
+
+const sectionTitles = new Set();
+
+const sectionList = levels.filter(
+  (el) => {
+    const duplicate = sectionTitles.has(
+      el.section
+    );
+    sectionTitles.add(el.section);
+    return !duplicate;
+  }
+);
 
 const SectionGallery = () => {
-  const sectionCard = sections.map(
+  const sectionCard = sectionList.map(
     (section) => (
       <SectionCard
         key={section.id}
         section={section.section}
         id={section.id}
+        urlsection={section.urlsection}
       />
     )
   );

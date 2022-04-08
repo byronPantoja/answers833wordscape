@@ -3,13 +3,27 @@ import Link from 'next/link';
 import Header from 'components/Header';
 import levels from 'data/levels.json';
 import LevelCard from 'components/LevelCard';
-
+import TierLevelCard from 'components/TierLevelCard';
+import answersData from 'data/dataUtils/answersData';
 const LevelAnswerPage = () => {
   const router = useRouter();
-  const { id } = router.query;
+  const query = router.asPath;
 
-  const answerPage = levels
-    .filter((f) => f.id == id)
+  const tierLevelPage = levels
+    .filter(
+      (tiers) => tiers.urltier == query
+    )
+    .map((tier) => (
+      <TierLevelCard
+        key={tier.id}
+        id={tier.id}
+        url={tier.url}
+        level={tier.level}
+      />
+    ));
+
+  const LevelPage = levels
+    .filter((lvls) => lvls.url == query)
     .map((level) => (
       <div key={level.id}>
         <LevelCard
@@ -30,12 +44,8 @@ const LevelAnswerPage = () => {
             <Link
               href={`/answers${
                 level.urlprev
-                  ? `${
-                      level.urlprev
-                    }/?id=${
-                      parseInt(id) - 1
-                    }`
-                  : ''
+                  ? level.urlprev
+                  : '/'
               }`}
             >
               <a className='pr-5 font-medium text-indigo-600 hover:text-indigo-500'>
@@ -46,14 +56,10 @@ const LevelAnswerPage = () => {
               </a>
             </Link>
             <Link
-              href={`/answers${
+              href={`/${
                 level.urlnext
-                  ? `${
-                      level.urlnext
-                    }/?id=${
-                      parseInt(id) + 1
-                    }`
-                  : ``
+                  ? level.urlnext
+                  : '/'
               }`}
             >
               <a className='pl-5 font-medium text-indigo-600 hover:text-indigo-500'>
@@ -68,13 +74,15 @@ const LevelAnswerPage = () => {
         </LevelCard>
       </div>
     ));
+  console.log('path', router.asPath);
 
   return (
     <>
       <Header>
         <div className='mt-12'>
           <div className='grid grid-cols-1 gap-8 '>
-            {answerPage}
+            {tierLevelPage}
+            {LevelPage}
           </div>
         </div>
       </Header>

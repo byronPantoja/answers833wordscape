@@ -1,53 +1,58 @@
 import levels from 'data/levels.json';
-import tiers from 'data/tiers.json';
 import TierCard from 'components/TierCard';
+import TierLevelCard from 'components/TierLevelCard';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Header from 'components/Header';
 import LevelCard from 'components/LevelCard';
 import LevelCardGalllery from 'components/LevelCardGalllery';
+import TierGallery from 'components/TierGallery';
+
+const tierTitles = new Set();
+
+const tierList = levels.filter((el) => {
+  const duplicate = tierTitles.has(
+    el.tier
+  );
+  tierTitles.add(el.tier);
+  return !duplicate;
+});
+
+const tierlist = new Set();
+
+const TierList = tierList.filter(
+  (el) => {
+    const duplicate = tierlist.has(
+      el.tierlevel
+    );
+    tierlist.add(el.tierlevel);
+    return !duplicate;
+  }
+);
 
 const TierPage = () => {
   const router = useRouter();
-  const { section, sectiontier } =
-    router.query;
-
-  const tPage = tiers
-    .filter((t) => t.section == section)
-    .map((tier) => (
-      <TierCard
-        key={tier.id}
-        section={tier.section}
-        sectiontier={tier.sectiontier}
-        id={tier.id}
-      />
-    ));
-
-  const stPage = levels
-    .filter(
-      (f) =>
-        f.sectiontier == sectiontier
-    )
-    .map((level) => (
-      <LevelCard
-        key={level.id}
-        id={level.id}
-        url={level.url}
-        title={level.title}
-        tier={level.tier}
-        section={level.section}
-        answer={level.answer}
-        sectiontier={level.sectiontier}
-        level={level.level}
-      />
-    ));
+  const query = router.asPath;
+  console.log('tier', query);
+  const tierPage = TierList.filter(
+    (section) =>
+      section.urlsection == query
+  ).map((section) => (
+    <TierCard
+      key={section.id}
+      urlsection={section.urlsection}
+      urltier={section.urltier}
+      id={section.id}
+      tier={section.tier}
+    />
+  ));
 
   return (
     <>
       <Header>
         <div className='mt-12'>
           <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
-            {tPage} {stPage}{' '}
+            {tierPage}
           </div>
         </div>
       </Header>
