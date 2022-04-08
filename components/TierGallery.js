@@ -1,11 +1,20 @@
 import TierCard from 'components/TierCard';
 import levels from 'data/levels.json';
 
+const tierTitles = new Set();
+
+const tierList = levels.filter((el) => {
+  const duplicate = tierTitles.has(
+    el.section
+  );
+  tierTitles.add(el.section);
+  return !duplicate;
+});
 const TierGallery = () => {
   const tierCard = levels.map(
     (tier) => (
       <TierCard
-        key={tier.id && tier.urlsection}
+        key={tier.id}
         urltier={tier.urltier}
         id={tier.id}
         tier={tier.tier}

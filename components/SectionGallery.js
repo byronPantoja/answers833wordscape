@@ -1,24 +1,37 @@
-// import SectionCard from 'components/SectionCard';
-// import sections from 'data/sections.json';
+import SectionCard from 'components/SectionCard';
+import levels from 'data/levels.json';
 
-// const SectionGallery = () => {
-//   const sectionCard = sections.map(
-//     (section) => (
-//       <SectionCard
-//         key={section.id}
-//         section={section.section}
-//         id={section.id}
-//       />
-//     )
-//   );
+const sectionTitles = new Set();
 
-//   return (
-//     <div className='mt-12'>
-//       <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
-//         {sectionCard}
-//       </div>
-//     </div>
-//   );
-// };
+const sectionList = levels.filter(
+  (el) => {
+    const duplicate = sectionTitles.has(
+      el.section
+    );
+    sectionTitles.add(el.section);
+    return !duplicate;
+  }
+);
 
-// export default SectionGallery;
+const SectionGallery = () => {
+  const sectionCard = sectionList.map(
+    (section) => (
+      <SectionCard
+        key={section.id}
+        section={section.section}
+        id={section.id}
+        urlsection={section.urlsection}
+      />
+    )
+  );
+
+  return (
+    <div className='mt-12'>
+      <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
+        {sectionCard}
+      </div>
+    </div>
+  );
+};
+
+export default SectionGallery;

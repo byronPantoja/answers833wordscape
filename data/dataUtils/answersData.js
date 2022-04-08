@@ -113961,7 +113961,7 @@ const answersData = [
   },
 ];
 
-const randomWords = ["random answer is cat", " random answer is hat", "random answer is  mat", "random answer is  bat", "random answer is  lat", "random answer is  sat"]
+const randomWords = ["random answer is cat", "random answer is hat", "random answer is  mat", "random answer is  bat", "random answer is  lat", "random answer is  sat"]
 // First give all levels an ID
 answersData.map((item, index) => {
   item.id = index + 1;
@@ -114011,29 +114011,29 @@ const prevURL = answersData.map(
 answersData.map((item, index) => {
   // changes urlnext to  '/section/tier/tierLevel'
   item.urlnext = nextURL[index]
-    ? '/' +
+    ? '/answers/' +
       //section
-      nextURL[index][0] +
-      '/' +
-      //tier
       nextURL[index][1] +
       '/' +
+      //tier
+      nextURL[index][2] +
+      '/' +
       //tierlevel
-      nextURL[index][2]
+      nextURL[index][3]
     : ''
   })
 
 answersData.map((item, index) => {
 item.urlprev = prevURL[index]
-    ? '/' +
+    ? '/answers/' +
       //section
-      prevURL[index][0] +
-      '/' +
-      //tier
       prevURL[index][1] +
       '/' +
+      //tier
+      prevURL[index][2] +
+      '/' +
       //tierlevel
-      prevURL[index][2]
+      prevURL[index][3]
     : '';
 })
 

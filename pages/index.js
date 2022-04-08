@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from 'components/Header';
-import SectionsList from 'components/SectionsList';
+
+import SectionGallery from 'components/SectionGallery';
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
         />
       </Head>
       <Header>
-        <SectionsList />
+        <SectionGallery />
       </Header>
     </>
   );
