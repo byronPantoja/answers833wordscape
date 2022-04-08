@@ -1,14 +1,17 @@
 import TierCard from 'components/TierCard';
-import tiers from 'data/tiers.json';
+import levels from 'data/levels.json';
 
 const TierGallery = () => {
-  const tierCard = tiers.map((tier) => (
-    <TierCard
-      key={tier.id}
-      section={tier.section}
-      sectiontier={tier.sectiontier}
-    />
-  ));
+  const tierCard = levels.map(
+    (tier) => (
+      <TierCard
+        key={tier.id && tier.urlsection}
+        urltier={tier.urltier}
+        id={tier.id}
+        tier={tier.tier}
+      />
+    )
+  );
 
   return (
     <div className='mt-12'>

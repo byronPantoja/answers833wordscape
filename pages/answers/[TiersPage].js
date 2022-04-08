@@ -1,5 +1,4 @@
 import levels from 'data/levels.json';
-import tiers from 'data/tiers.json';
 import TierCard from 'components/TierCard';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
@@ -7,37 +6,56 @@ import Header from 'components/Header';
 import LevelCard from 'components/LevelCard';
 import LevelCardGalllery from 'components/LevelCardGalllery';
 
+const tierTitles = new Set();
+
+const tierList = levels.filter((el) => {
+  const duplicate = tierTitles.has(
+    el.tier
+  );
+  tierTitles.add(el.tier);
+  return !duplicate;
+});
+
+const levelTitles = new Set();
+
+const levelsList = levels.filter(
+  (el) => {
+    const duplicate = levelTitles.has(
+      el.level
+    );
+    levelTitles.add(el.level);
+    return !duplicate;
+  }
+);
+
 const TierPage = () => {
   const router = useRouter();
-  const { section, sectiontier } =
-    router.query;
-
-  const tPage = tiers
-    .filter((t) => t.section == section)
+  const query = router.asPath;
+  const tPage = tierList
+    .filter(
+      (t) => t.urlsection == query
+    )
     .map((tier) => (
       <TierCard
         key={tier.id}
-        section={tier.section}
-        sectiontier={tier.sectiontier}
+        urlsection={tier.urlsection}
+        urltier={tier.urltier}
         id={tier.id}
+        tier={tier.tier}
       />
     ));
 
-  const stPage = levels
-    .filter(
-      (f) =>
-        f.sectiontier == sectiontier
-    )
+  const stPage = levelsList
+    .filter((f) => f.urltier == query)
     .map((level) => (
-      <LevelCard
+      <TierCard
         key={level.id}
         id={level.id}
-        url={level.url}
+        urltier={level.urltier}
         title={level.title}
         tier={level.tier}
         section={level.section}
         answer={level.answer}
-        sectiontier={level.sectiontier}
         level={level.level}
       />
     ));
@@ -47,7 +65,7 @@ const TierPage = () => {
       <Header>
         <div className='mt-12'>
           <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
-            {tPage} {stPage}{' '}
+            {tPage} {stPage}
           </div>
         </div>
       </Header>

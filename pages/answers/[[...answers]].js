@@ -6,10 +6,10 @@ import LevelCard from 'components/LevelCard';
 
 const LevelAnswerPage = () => {
   const router = useRouter();
-  const { id } = router.query;
+  const query = router.asPath;
 
   const answerPage = levels
-    .filter((f) => f.id == id)
+    .filter((f) => f.url == query)
     .map((level) => (
       <div key={level.id}>
         <LevelCard
@@ -46,7 +46,7 @@ const LevelAnswerPage = () => {
               </a>
             </Link>
             <Link
-              href={`/answers${
+              href={`${
                 level.urlnext
                   ? `${
                       level.urlnext

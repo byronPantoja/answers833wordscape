@@ -113960,9 +113960,14 @@ const answersData = [
     answersnext: '',
   },
 ];
+
+const randomWords = ["random answer is cat", " random answer is hat", "random answer is  mat", "random answer is  bat", "random answer is  lat", "random answer is  sat"]
 // First give all levels an ID
 answersData.map((item, index) => {
   item.id = index + 1;
+  item.answer = randomWords[Math.floor(Math.random() * randomWords.length)];
+  item.answersnext = ' ';
+  item.answersprev = ' ';
 });
 
 // Parse the URL to remove spaces and the word 'answers', leaving only the level tags (/section/tier/tierLevel)
@@ -113985,8 +113990,7 @@ const nextURL = answersData.map(
       .filter((element) => {
         return (
           element !== '' &&
-          element !== 'wordscapeshelper.com' &&
-          element !== 'answers'
+          element !== 'wordscapeshelper.com' 
         );
       }) : null
 );
@@ -113998,8 +114002,7 @@ const prevURL = answersData.map(
       .filter((element) => {
         return (
           element !== '' &&
-          element !== 'wordscapeshelper.com' &&
-          element !== 'answers'
+          element !== 'wordscapeshelper.com'
         );
       }) : null
 );
@@ -114039,7 +114042,7 @@ item.urlprev = prevURL[index]
 answersData.map((item, index) => {
   // changes url to  '/section/tier/tierLevel'
   item.url = LevelTitles[index]
-    ? '/' +
+    ? '/answers/' +
       //section
       LevelTitles[index][0] +
       '/' +
@@ -114049,19 +114052,22 @@ answersData.map((item, index) => {
       //tierlevel
       LevelTitles[index][2]
     : '';
-  // adds 'section' to object
-  item.section = LevelTitles[index]
-    ? LevelTitles[
-        index
-      ][0].toUpperCase()
+  // adds 'url section' to object as 'section'
+  item.urlsection = LevelTitles[index]
+  ? '/answers/' + 
+    //section
+    LevelTitles[index][0]
     : '';
-  // adds 'sectiontier' to object
-  item.sectiontier = LevelTitles[index]
-    ? (
-        LevelTitles[index][0] +
-        ' ' +
-        LevelTitles[index][1]
-      ).toUpperCase()
+
+  // adds 'urltier' to object
+  item.urltier = LevelTitles[index]
+    ? '/answers/' + LevelTitles[index][0] + '/' + LevelTitles[index][1]
+    
+    : '';
+      // adds 'section' to object as 'section'
+  item.section = LevelTitles[index]
+  ? //section
+    LevelTitles[index][0].toUpperCase()
     : '';
   // adds 'tier' to object
   item.tier = LevelTitles[index]
@@ -114069,6 +114075,14 @@ answersData.map((item, index) => {
         index
       ][1].toUpperCase()
     : '';
+      // add 'tierlevel' to object
+  item.tierlevel = LevelTitles[index]
+  ? (
+      LevelTitles[index][1] +
+      ' ' +
+      LevelTitles[index][2]
+    ).toUpperCase()
+  : '';
   // add 'level' to object
   item.level = LevelTitles[index]
     ? (
@@ -114082,61 +114096,60 @@ answersData.map((item, index) => {
 });
 
 // maps answersData and creates a new array of the 'section(s)'
-const secTitles = answersData.map(
-  (a) => a.section
-);
+// const secTitles = answersData.map(
+//   (a) => a.section
+// );
 // removes duplicates of array
-let sectionTitles = [
-  ...new Set(secTitles),
-];
+// let sectionTitles = [
+//   ...new Set(secTitles),
+// ];
 
 // pushes 'section' as the key in the array ie./ 'section: sunrise'
-const sectionsData =
-  sectionTitles.reduce((s, a) => {
-    s.push({
-      section: a,
-    });
-    return s;
-  }, []);
+// const sectionsData =
+//   sectionTitles.reduce((s, a) => {
+//     s.push({
+//       section: a,
+//     });
+//     return s;
+//   }, []);
 
 // adds id to section titles
-sectionsData.map((item, index) => {
-  item.id = index + 1;
-});
+// sectionsData.map((item, index) => {
+//   item.id = index + 1;
+// });
 
 // maps answersData and creates a new array of the 'section tier(s)'
-const secTiers = answersData.map(
-  (a) => a.sectiontier
-);
+// const secTiers = answersData.map(
+//   (a) => a.sectiontier
+// );
 // removes duplicates of array
-let sectiontiers = [
-  ...new Set(secTiers),
-];
+// let sectiontiers = [
+//   ...new Set(secTiers),
+// ];
 
 // pushes 'section-tier' as the key in the array ie./ 'section-tier: sunrise rise'
-const sectiontierData =
-  sectiontiers.reduce((s, a) => {
-    s.push({
-      sectiontier: a,
-    });
-    return s;
-  }, []);
+// const sectiontierData =
+//   sectiontiers.reduce((s, a) => {
+//     s.push({
+//       sectiontier: a,
+//     });
+//     return s;
+//   }, []);
 
 // adds id to section tier titles
-sectiontierData.map((item, index) => {
-  item.id = index + 1;
+// sectiontierData.map((item, index) => {
+//   item.id = index + 1;
   // adds section
-  item.section = sectiontierData[
-    index
-  ].sectiontier
-    .split(' ')
-    .shift();
-});
+//   item.section = sectiontierData[
+//     index
+//   ].sectiontier
+//     .split(' ')
+//     .shift();
+// });
 
 console.log('answersData', answersData);
 
 module.exports = {
-  answersData,
-  sectionsData,
-  sectiontierData,
+  answersData
+
 };
