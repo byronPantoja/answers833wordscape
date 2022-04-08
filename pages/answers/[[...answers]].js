@@ -4,7 +4,7 @@ import Header from 'components/Header';
 import levels from 'data/levels.json';
 import LevelCard from 'components/LevelCard';
 import TierLevelCard from 'components/TierLevelCard';
-import answersData from 'data/dataUtils/answersData';
+
 const LevelAnswerPage = () => {
   const router = useRouter();
   const query = router.asPath;
@@ -42,7 +42,7 @@ const LevelAnswerPage = () => {
         >
           <div className='mt-3 text-sm'>
             <Link
-              href={`/answers${
+              href={`${
                 level.urlprev
                   ? level.urlprev
                   : '/'
@@ -56,7 +56,7 @@ const LevelAnswerPage = () => {
               </a>
             </Link>
             <Link
-              href={`/${
+              href={`${
                 level.urlnext
                   ? level.urlnext
                   : '/'
@@ -74,7 +74,6 @@ const LevelAnswerPage = () => {
         </LevelCard>
       </div>
     ));
-  console.log('path', router.asPath);
 
   return (
     <>

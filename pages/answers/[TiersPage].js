@@ -1,12 +1,7 @@
 import levels from 'data/levels.json';
 import TierCard from 'components/TierCard';
-import TierLevelCard from 'components/TierLevelCard';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 import Header from 'components/Header';
-import LevelCard from 'components/LevelCard';
-import LevelCardGalllery from 'components/LevelCardGalllery';
-import TierGallery from 'components/TierGallery';
 
 const tierTitles = new Set();
 
@@ -33,7 +28,6 @@ const TierList = tierList.filter(
 const TierPage = () => {
   const router = useRouter();
   const query = router.asPath;
-  console.log('tier', query);
   const tierPage = TierList.filter(
     (section) =>
       section.urlsection == query
